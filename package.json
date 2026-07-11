@@ -1,0 +1,57 @@
+{
+  "name": "port-nuke",
+  "version": "1.0.0",
+  "description": "Cross-platform CLI + library to find and kill the process holding a port hostage. Fixes 'port already in use' on macOS, Windows and Linux.",
+  "keywords": [
+    "port",
+    "kill",
+    "kill-port",
+    "free-port",
+    "eaddrinuse",
+    "address-in-use",
+    "port-in-use",
+    "lsof",
+    "netstat",
+    "taskkill",
+    "process",
+    "pid",
+    "cli",
+    "cross-platform",
+    "devtools"
+  ],
+  "type": "module",
+  "bin": {
+    "port-nuke": "bin/port-nuke.js",
+    "nuke-port": "bin/port-nuke.js"
+  },
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "start": "node bin/port-nuke.js",
+    "lint": "node --check bin/port-nuke.js"
+  },
+  "engines": {
+    "node": ">=16.17.0"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-name/port-nuke.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-name/port-nuke/issues"
+  },
+  "homepage": "https://github.com/your-name/port-nuke#readme",
+  "dependencies": {}
+}
