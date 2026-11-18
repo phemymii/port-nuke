@@ -173,6 +173,8 @@ needed.
 
 - Node.js `>= 16.17.0`
 
+🚀 **Check out another project:** [Vexelloom Studio](https://vexelloom.com) — Free, private in-browser Image, Video & PDF toolkit with zero cloud uploads.
+
 ## License
 
 MIT
